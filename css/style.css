@@ -1,0 +1,62 @@
+:root {
+	--bckColor: hsla(250,30%, 40%,1);
+	--headerColor:hsla(245,25%,30%,1);
+	--textColor: hsla(250,30%, 90%,1);
+	--hoverColor:hsla(250,30%,35%,1);
+	--hoverBckColor:hsla(230,25%,30%,0.3);
+
+}
+
+body{
+	font-family:helvetica, Arial, sans-serif;
+	background-color: var(--bckColor);
+	color: var(--textColor);
+}
+header{
+	background-color: var(--headerColor);
+	align-items:center;
+	display: flex-center;
+}
+h1{
+	text-align:center;
+}
+.buttons{
+	text-align:center;
+	
+}
+.btn{
+	background-color: transparent;
+}
+.btn:hover {
+	 box-shadow: 5px 5px 5px var(--hoverColor);
+	 background-color: var(--hoverBckColor);
+	 color: var(--textColor);
+}
+.streamer_Element {
+	background-color: grey;
+	height: 5em;
+	width:50em;
+	padding: 1em;
+	border: 1px solid black;
+	border-radius:10px;
+	margin: 1em auto;
+	
+}
+.game {
+	text-align:center;
+}
+
+.user_name{
+	text-align: center;
+	color: var(--bckColor);
+}
+
+.logo {
+	height:100%;
+	width:auto;
+	border-radius: 50%;
+
+}
+.hidden {
+	display:none;
+}

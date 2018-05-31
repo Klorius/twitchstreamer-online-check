@@ -1,0 +1,21 @@
+Noter
+
+problemstilling: producere en hjemmeside hvor man kan se hvilke twitch streamere der er online, offline og dem alle blandet sammen i en tab. Under hver "streamer boks" skal der være et user ID, hvilket spil de spiller og hvad der "channel ID" er.
+
+problemer: asynkron informations indhentning, der bliver hentet info til "streamer boks", det kan løses ved at være opmærksom på sit scope og brug -let- istedet for -var-. 
+Lav funktioner i parent scope med navn, så de kan hentes ind i child scopet mere overskueligt
+
+
+to-do 
+
+-indhente liste fra de forskellige API'er 
+-se hvad de indeholder og byg hjemmesiden op omkring den info(husk at dokumentere hvordan det ser ud, for et nemmere overblik)
+-bygge html op så det afstedkommer nem adgang og indsætning afstedkommer -div elementer- med javascript (det kan være at man skal lave en "streamer boks")
+
+- "streamer boks" indeholder:	
+	- navn på streameren
+	- hvad det spiller 
+	- om de er online/offline
+	- logo
+
+HUSK!!! tjek browser kompabilitet
